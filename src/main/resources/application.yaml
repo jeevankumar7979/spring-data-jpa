@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: one-to-many-relationship
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    password:
+    username: jeevankumar
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
